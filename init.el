@@ -63,7 +63,7 @@
 
 ;; colored #hexa
 (defvar hexcolour-keywords
-  '(("#[abcdef[:digit:]]\\{6\\}"
+  '(("#[abcdef[:digit:]]\\{3,6\\}"
      (0 (put-text-property
          (match-beginning 0)
          (match-end 0)
